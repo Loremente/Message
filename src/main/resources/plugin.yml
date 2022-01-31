@@ -1,0 +1,7 @@
+name: Message
+version: '1.0'
+main: me.loremente.message.Message
+api-version: 1.18
+commands:
+  message:
+  reply:
