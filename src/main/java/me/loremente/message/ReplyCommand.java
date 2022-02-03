@@ -23,7 +23,7 @@ public class ReplyCommand implements CommandExecutor {
         if(sender instanceof Player) {
             Player player = (Player)sender;
 
-            if (args.length >= 1) {
+            if (args.length >= 2) {
                 if (main.getRecentMessages().containsKey(player.getUniqueId())) {
                     UUID uuid = main.getRecentMessages().get(player.getUniqueId());
                     if (Bukkit.getPlayer(uuid) != null) {
